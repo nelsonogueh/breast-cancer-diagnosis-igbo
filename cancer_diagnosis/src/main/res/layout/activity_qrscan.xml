@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dulcepoint.cancerdiagnosis.QRScan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SurfaceView
+            android:id="@+id/cameraPreview"
+            android:layout_width="480dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:text="Scan..."
+            android:textAlignment="center" />
+
+       <!-- <TextView
+            android:id="@+id/responseTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/alert_success"
+            android:padding="20dp"
+            android:text="Breast Cancer Suspected!"
+            android:textAlignment="center"
+            android:textColor="@color/successText"
+            android:textSize="20dp" />-->
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

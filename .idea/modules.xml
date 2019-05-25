@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CancerDiagnosis.iml" filepath="$PROJECT_DIR$/CancerDiagnosis.iml" />
+      <module fileurl="file://C:\Users\Nelson\AndroidStudioProjects\CancerDiagnosis\cancer_diagnosis\app.iml" filepath="C:\Users\Nelson\AndroidStudioProjects\CancerDiagnosis\cancer_diagnosis\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cancer_diagnosis/cancer_diagnosis.iml" filepath="$PROJECT_DIR$/cancer_diagnosis/cancer_diagnosis.iml" />
+    </modules>
+  </component>
+</project>
